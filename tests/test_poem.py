@@ -13,5 +13,5 @@ def test_poems():
     for poem in poems:
         assert isinstance(poem, list)
         assert len(poem) == 2
-        assert len(poem[0]) > 0
-        assert len(poem[1]) > 0
+        assert isinstance(poem[0], str)
+        assert isinstance(poem[1], str)

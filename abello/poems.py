@@ -16,8 +16,8 @@ Aquesta és la força que busquem,
 l’amor que aprenem a sostenir
 contra el caire del temps'''],
     [
-        ['''El blat del temps (1986)'''],
-        ['''Sense voler escolto
+        '''El blat del temps (1986)''',
+        '''Sense voler escolto
 el so de paraules
 que ja no tenen cap
 valor.
@@ -29,7 +29,6 @@ trobem mortes,
 llençades vora els cancells
 de portes que no ens
 atrevim a obrir. ''']
-    ]
 ]
 
 
@@ -42,7 +41,7 @@ def get_poem():
 
 def main():
     title, poem = get_poem()
-    print(title)
+    print(title.upper())
     print(poem)
 
 
